@@ -1,0 +1,21 @@
+ssh-keygen
+ssh-copy-id -i ~/.ssh/id_rsa.pub 192.168.234.137
+ssh-copy-id -i ~/.ssh/id_rsa.pub 192.168.234.152
+ssh-copy-id -i ~/.ssh/id_rsa.pub 192.168.234.151
+ssh-copy-id -i ~/.ssh/id_rsa.pub ansiblemaster.com
+ssh-copy-id -i ~/.ssh/id_rsa.pub node1.com
+ssh-copy-id -i ~/.ssh/id_rsa.pub node2.com
+
+192.168.234.152
+node1.com
+
+192.168.234.151
+node2.com
+
+[powerstar]
+192.168.234.152
+node1.com
+
+[kishor]
+192.168.234.151
+node2.com
